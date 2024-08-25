@@ -1,10 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react'
-import style from './Products.module.css'
-import { useQuery } from '@tanstack/react-query'
+import React, { useContext} from 'react'
 import { Link } from 'react-router-dom'
 import Loading from '../Loading/Loading.jsx'
 import { CartContext } from '../../Context/CartContext.jsx'
-import axios from 'axios'
 import useProducts from '../../Hooks/useProducts.jsx'
 import { Helmet } from "react-helmet";
 export default function Products() {

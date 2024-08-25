@@ -1,5 +1,4 @@
 import React, { useContext, useEffect } from 'react'
-import style from './Cart.module.css'
 import { CartContext } from '../../Context/CartContext.jsx'
 import Loading from '../Loading/Loading.jsx'
 import { Link } from 'react-router-dom'

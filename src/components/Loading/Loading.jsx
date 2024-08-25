@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import style from './Loading.module.css'
 import { BallTriangle } from 'react-loader-spinner'
 
 export default function Loading() {

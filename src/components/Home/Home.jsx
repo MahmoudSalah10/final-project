@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import style from './Home.module.css'
-import axios from 'axios'
 import RecentProducts from '../RecentProducts/RecentProducts.jsx';
 // import Loading from '../Loading/Loading.jsx';
 import CategoriesSlider from '../categoriesSlider/categoriesSlider.jsx';
