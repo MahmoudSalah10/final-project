@@ -21,7 +21,7 @@ export default function Login() {
       setLoading(true)
       let { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/auth/signin`, values);
       localStorage.setItem('userToken', data.token);
-      navigate('/home');
+      navigate('/');
       setUserData(data.token)
 
     }
